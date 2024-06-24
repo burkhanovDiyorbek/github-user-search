@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light {
+  :root {
+    --bg-body: #f6f8ff;
+    --bg-con: #fefefe;
+    --inp-clr: #4b6a9b;
+    --logo-clr: #222731;
+    --p-clr: #697c9a;
+    --h-clr: #2b3442;
+  }
+}
+.dark {
+  background: #141d2f;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Space Mono", monospace;
+  background: var(--bg-body);
+  color: #000;
+}
+
+input {
+  font-family: inherit;
+  color: inherit;
+  background: inherit;
+  border: none;
+  outline: none;
+}
+
+button {
+  color: #fff;
+}
