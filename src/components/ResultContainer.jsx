@@ -10,7 +10,6 @@ export class ResultContainer extends Component {
     super(props);
   }
   render() {
-    console.log("res render");
     const date = this.props?.responseData?.created_at;
     return (
       <div className="flex rounded-[15px] bg-[#FEFEFE] shadow-[0px_16px_30px_-10px_rgba(70,96,187,0.20)] dark:bg-[#1E2A47] px-[32px] py-[22px] flex-col">

@@ -49,7 +49,6 @@ class App extends Component {
     }
   }
   render() {
-    console.log("app render", this.state.responseData);
     return (
       <div className="flex flex-col max-w-[738px] mx-3 w-[100vw] rounded-[15px] p-5 wt:max-wd:max-w-[573px]">
         <div className="flex justify-between w-[100%] mb-8">
